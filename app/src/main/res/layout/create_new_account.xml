@@ -42,7 +42,18 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="12dp"
-            android:text="Your Name"></TextView>
+            android:text="Mobile Number or email"></TextView>
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="12dp"
+            android:text="Password"></TextView>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></EditText>
@@ -52,17 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="12dp"
-            android:text="Your Name"></TextView>
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"></EditText>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="12dp"
-            android:text="Your Name"></TextView>
+            android:text="Re-Enter Password"></TextView>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></EditText>
