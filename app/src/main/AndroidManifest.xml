@@ -27,7 +27,8 @@
 
         </activity>
 
-        <activity android:name=".ui.login.CreateNewAccount"></activity>
+<!--        <activity android:name=".ui.login.CreateNewAccount"></activity>-->
+<!--        <activity android:name=".ShoppingCategory"></activity>-->
     </application>
 
 </manifest>
