@@ -35,6 +35,7 @@
             android:text="Your Name"></TextView>
         <EditText
             android:layout_width="match_parent"
+            android:id="@+id/name"
             android:layout_height="wrap_content"></EditText>
 
         <TextView
@@ -44,8 +45,8 @@
             android:layout_marginLeft="12dp"
             android:text="Mobile Number or email"></TextView>
         <EditText
-            android:inputType="number"
             android:layout_width="match_parent"
+            android:id="@+id/mobile_number"
             android:layout_height="wrap_content"></EditText>
 
         <TextView
@@ -56,6 +57,9 @@
             android:text="Password"></TextView>
         <EditText
             android:layout_width="match_parent"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+
             android:layout_height="wrap_content"></EditText>
 
         <TextView
@@ -66,6 +70,9 @@
             android:text="Re-Enter Password"></TextView>
         <EditText
             android:layout_width="match_parent"
+            android:id="@+id/re_enter_password"
+            android:inputType="textPassword"
+
             android:layout_height="wrap_content"></EditText>
 
         <Button
@@ -73,6 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="15dp"
+            android:id="@+id/create_new_account"
             android:layout_marginRight="15dp"
             android:text="Continue"></Button>
 

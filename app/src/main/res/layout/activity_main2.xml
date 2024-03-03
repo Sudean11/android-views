@@ -39,6 +39,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
+                android:id="@+id/email"
                 android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:padding="8dp"/>
@@ -50,6 +51,7 @@
                 android:layout_width="match_parent"
                 android:hint="Password"
                 android:layout_height="60dp"
+                android:id="@+id/password"
                 android:inputType="textPassword"
                 android:padding="8dp"/>
         </LinearLayout>
@@ -61,6 +63,7 @@
 
             <CheckBox
                 android:layout_width="wrap_content"
+                android:id="@+id/show_password"
                 android:layout_height="wrap_content"></CheckBox>
             <TextView
                 android:layout_width="wrap_content"
@@ -75,6 +78,7 @@
 
         <Button
             android:layout_width="match_parent"
+            android:id="@+id/sign_in"
             android:layout_height="wrap_content"
             android:text="Sign In"
             ></Button>
@@ -115,6 +119,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:id="@+id/sign_up"
             android:text="Create a new Amazon Account">
         </Button>
 
